@@ -24,7 +24,7 @@ icon:#("MZPCreator" ,1)
         if not doesfileexist folder do makedir folder all:true
         if not doesfileexist path do deletefile path
         local file = createfile path
-        format str to:file
+        format "%" str to:file
         close file
     )
 
